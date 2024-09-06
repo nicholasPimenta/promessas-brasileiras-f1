@@ -176,7 +176,15 @@ footer p {
         text-align: center;
     }
 }
-@media (min-width: 2560px) {
+
+@media (min-height: 1024px) {
+    footer {
+        position: static;
+        bottom: 0;
+    }
+}
+
+@media (min-height: 1180px) {
     footer {
         position: absolute;
         bottom: 0;
