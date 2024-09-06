@@ -179,13 +179,6 @@ footer p {
 
 @media (min-height: 1024px) {
     footer {
-        position: static;
-        bottom: 0;
-    }
-}
-
-@media (min-height: 1180px) {
-    footer {
         position: absolute;
         bottom: 0;
     }
